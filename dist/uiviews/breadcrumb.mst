@@ -1,0 +1,1 @@
+<li><a href="#">{{model}}</a></li><li><a href="#">{{model}} {{subModel}}<span class="version">(OS: {{osVersion}})</span></a></li><li><span class="running">...</span>Test in Progress<span class="reservation-left-timer">({{resTimer}})</span>{{#role}}<b class="current-device-id">{{deviceId}}</b>{{/role}}</li>

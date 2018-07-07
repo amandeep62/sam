@@ -1,0 +1,10 @@
+<div class="history panel bounceInRight animated">
+  <div class="panel-header">
+      <h4>History</h4>
+      <span class="btn refresh">Refresh</span>
+      <span class="btn clear-all">Clear All</span>
+  </div>
+  <div class="panel-view">
+    <ul class="listItems"></ul>
+  </div>
+</div>

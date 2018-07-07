@@ -1,0 +1,27 @@
+{{#list}}
+    <li>
+        <img src={{imageUrl}}>
+        <div class="device-info">
+            <h4>{{product}} {{device}}</h4>
+            <div class="reservation-params">
+                <select>
+                    {{#role}}<option value="2">Reserve for 2 minutes</option>{{/role}}
+                    <option value="15">Reserve for 15 minutes</option>
+                    <option value="30">Reserve for 30 minutes</option>
+                </select>
+                <div class="reservation-info">
+                    <span>OS: {{osVersion}}</span>
+                    <span>Samsung Account: <img src="../images/usa_flag.png" /></span>
+                </div>
+                <div class="reservation-info">
+                    <span>Cellular connection: {{active}}</span>
+                    <span>WiFi: Yes</span>
+                </div>
+                {{#role}}
+                    <input type="text" value="{{deviceId}}" id="device{{idx}}" placeholder="Device ID" name="device{{''}}" />
+                {{/role}}
+                <button class="avail-device" data-model="{{device}}" data-os="{{osVersion}}" data-carrier="{{carrier}}">Reserve</button>
+            </div>
+        </div>
+    </li>
+{{/list}}

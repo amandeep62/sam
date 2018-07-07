@@ -1,0 +1,1 @@
+<div class="apk" id="form-content" style="display:none;"><div class="apk-view"><form class="form-group"><input type="file" name="apkUpload" accept=".apk" class="apkUpload"> <button class="loadProgress"></button> <button class="upload-btn"><span class="upload-btn-text">Upload</span></button></form><div class="apkStatus"></div></div></div>

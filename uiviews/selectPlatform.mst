@@ -1,0 +1,18 @@
+{{> header}}
+<div class="mainBody">
+    <div class="mainPanel">
+        {{> progressSteps}}
+        <ul class="platforms">
+            {{#platforms}}
+            <li id="rtl-android" class="animated bounceInLeft {{^android}}greyed{{/android}}">
+              <h2 id="rtl-android-head" {{^android}}data-tooltip="Coming Soon"{{/android}}>Android</h2>
+              <img id="rtl-android-icon" src="images/android.png" {{^android}}data-tooltip="Coming Soon"{{/android}} />
+            </li>
+            <li id="rtl-tizen" class="animated bounceInRight {{^tizen}}greyed{{/tizen}}">
+              <h2 id="rtl-tizen-head" {{^tizen}}data-tooltip="Coming Soon"{{/tizen}} >Tizen</h2>
+              <img id="rtl-tizen-icon" src="images/tizen.png" {{^tizen}}data-tooltip="Coming Soon"{{/tizen}} />
+            </li>
+            {{/platforms}}
+        </ul>
+    </div>
+</div>

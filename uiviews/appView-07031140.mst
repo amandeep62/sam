@@ -1,0 +1,23 @@
+{{> header}}
+<nav>
+  <ul class="steps steps-3"></ul>
+</nav>
+<div>
+  <ul class="panel-buttons">
+      <li class="logs"><span class="icon-console"></span> Logs</li>
+      <li id="disconnect" class="disconnect" data-tooltip="Are you sure?"><span class="icon-disconnect"></span> Disconnect</li>
+      <li id="def-apk" class="apk" data-tooltip="#form-content"><span class="icon-android"></span><span class="apkProgress"></span><span>Upload APK</span></li>
+      <li id="Wipe" data-tooltip="Reset the device to original state by removing accounts/apps/files created during this session" class="Wipe"><span class="icon-cleanUp"></span> Wipe</li>
+      <li class="screenshot"><span class="icon-screenshot"></span> Screenshot</li>
+  </ul>
+</div>
+<div class="rtl-workplace">
+  <div class="panels-container">
+      <div class="device-panel {{#S7}}s7{{/S7}}">
+        <img id="phoneBody" class="noDrag" src="images/phone-body.png" alt="phone-body" draggable="false" />
+        <img id="bitmapdata" class="noDrag" src="images/pixel.png" alt="bitmap" draggable="false" />
+        <div class="screen-shield"></div>
+        {{#role}}<span id="showBps" class="noDrag"></span>{{/role}}
+      </div>
+  </div>
+</div>

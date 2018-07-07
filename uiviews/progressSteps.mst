@@ -1,0 +1,14 @@
+<div class="progress-steps">
+  <ul class="progressbar-bg">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class="progressbar">
+    <li>Select Platform</li>
+    <li>Select Series</li>
+    <li>Reserve Device</li>
+    <li>Begin Test</li>
+  </ul>
+</div>

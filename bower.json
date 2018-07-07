@@ -1,0 +1,36 @@
+{
+  "name": "skeleton",
+  "version": "2.0.4",
+  "homepage": "http://getskeleton.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhg/Skeleton"
+  },
+  "authors": [
+    "RTL"
+  ],
+  "description": "RTL boilerplate.",
+  "main": "1.0",
+  "keywords": [
+    "css",
+    "skeleton",
+    "responsive",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "jquery": "^3.3.1",
+    "mustache.js": "mustache#^2.3.0",
+    "requirejs": "^2.3.5",
+    "keycloak": "^3.4.3",
+    "sockjs-client": "^1.1.4",
+    "stomp-websocket": "^2.3.4",
+    "darktooltip": "^0.4.0",
+    "requirejs-plugins": "^1.0.3",
+    "js-cookie": "^2.2.0",
+    "humps": "^2.0.1",
+    "moment": "^2.20.1",
+    "jquery-file-download": "^1.4.6"
+  }
+}

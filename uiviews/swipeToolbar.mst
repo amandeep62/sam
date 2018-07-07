@@ -1,0 +1,26 @@
+<ul class="toolbar swipe">
+  <li class="swipe_top" data-tooltip="Coming Soon">
+      <div class="flexed flex-column">
+          <span class="icon-swipe_top off"></span>
+          <h5>Up</h5>
+      </div>
+  </li>
+  <li class="swipe_left" data-tooltip="Coming Soon">
+       <div class="flexed flex-column">
+           <span class="icon-swipe_left off"></span>
+           <h5>Left</h5>
+       </div>
+  </li>
+  <li class="swipe_bottom" data-tooltip="Coming Soon">
+        <div class="flexed flex-column">
+            <span class="icon-swipe_bottom off"></span>
+            <h5>Down</h5>
+        </div>
+  </li>
+   <li class="swipe_right" data-tooltip="Coming Soon">
+        <div class="flexed flex-column">
+             <span class="icon-swipe_right off"></span>
+             <h5>Right</h5>
+        </div>
+  </li>
+</ul>

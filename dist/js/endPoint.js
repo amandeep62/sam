@@ -1,0 +1,1 @@
+"use strict";define(["keycloak"],function(e){var t="localhost:8080"===window.location.host?"qa.seacvl.com":window.location.host,a=e.token,o="https://"+t;return{serverLb:t,baseUrl:o,keycloakConfig:function(){return{url:o+"/auth",realm:"haystack",clientId:"haystack-ui",credentials:{secret:"02bac2f1-e399-44d5-a39b-db8fe1004711"}}},token:a}});

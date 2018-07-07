@@ -1,0 +1,134 @@
+[
+  {
+    "series": "S",
+    "modelNumber": "SM-G950U",
+    "deviceName": "S8",
+    "carrierName": "ATT"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G950U",
+    "deviceName": "S8",
+    "carrierName": "TMO"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G950U",
+    "deviceName": "S8",
+    "carrierName": "VZW"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G950U",
+    "deviceName": "S8",
+    "carrierName": "SPR"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G955U",
+    "deviceName": "S8+",
+    "carrierName": "ATT"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G955U",
+    "deviceName": "S8+",
+    "carrierName": "TMO"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G955U",
+    "deviceName": "S8+",
+    "carrierName": "VZW"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G955U",
+    "deviceName": "S8+",
+    "carrierName": "SPR"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G960U",
+    "deviceName": "S9",
+    "carrierName": "ATT"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G960U",
+    "deviceName": "S9",
+    "carrierName": "TMO"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G960U",
+    "deviceName": "S9",
+    "carrierName": "VZW"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G960U",
+    "deviceName": "S9",
+    "carrierName": "SPR"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G965U",
+    "deviceName": "S9+",
+    "carrierName": "ATT"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G965U",
+    "deviceName": "S9+",
+    "carrierName": "TMO"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G965U",
+    "deviceName": "S9+",
+    "carrierName": "VZW"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G965U",
+    "deviceName": "S9+",
+    "carrierName": "SPR"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G930A",
+    "deviceName": "S7",
+    "carrierName": "ATT"
+  },
+  {
+    "series": "S",
+    "modelNumber": "SM-G930V",
+    "deviceName": "S7",
+    "carrierName": "VZW"
+  },
+  {
+    "series": "Note",
+    "modelNumber": "SM-N950U",
+    "deviceName": "Note8",
+    "carrierName": "ATT"
+  },
+  {
+    "series": "Note",
+    "modelNumber": "SM-N950U",
+    "deviceName": "Note8",
+    "carrierName": "TMO"
+  },
+  {
+    "series": "Note",
+    "modelNumber": "SM-N950U",
+    "deviceName": "Note8",
+    "carrierName": "VZW"
+  },
+  {
+    "series": "Note",
+    "modelNumber": "SM-N950U",
+    "deviceName": "Note8",
+    "carrierName": "SPR"
+  }
+]

@@ -1,0 +1,1 @@
+<header><div class="topNav">{{^iFrame}}<img src="images/logo.png">{{/iFrame}}<h1>Cloud Device Farm</h1>{{^iFrame}}<span class="user">{{username}}</span>{{/iFrame}} <button class="historyBtn"><span class="icon-history"></span> History</button> {{^iFrame}}<button id="log-out"><span class="icon-logout"></span> Logout</button>{{/iFrame}}</div></header>

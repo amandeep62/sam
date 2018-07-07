@@ -1,0 +1,8 @@
+<li data-model="Gear" id="rtl-gear" class="animated bounceInLeft">
+  <h2>Gear</h2>
+  <img src="images/gear.png">
+</li>
+<li data-model="RF" id="rtl-family-hub" class="animated bounceInRight">
+  <h2>Family Hub</h2>
+  <img src="images/hub.png">
+</li>

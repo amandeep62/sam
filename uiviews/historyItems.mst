@@ -1,0 +1,23 @@
+{{#videoHistoryRes}}
+    <li class="videoList" data-rid={{rId}}>
+        <span class="video-expires">Expires {{expires}}</span>
+        <span class="clear icon-bin"></span>
+        <h3>{{createdDate}}</h3>
+        <h5>{{age}}</h5>
+        <div class="content">
+            {{#is32bit}}
+                <div>Unsupported Browser version</div>
+            {{/is32bit}}
+            {{^is32bit}}
+                {{#isVideoExists}}
+                 <video id='video_{{idx}}' controls="true" width="120" height="120">
+                   <source src='{{videoUrl}}' type="video/mp4"/>
+                 </video>
+                {{/isVideoExists}}
+                {{^isVideoExists}}
+                    <div>Preparing...</div>
+                {{/isVideoExists}}
+            {{/is32bit}}
+        </div>
+    </li>
+{{/videoHistoryRes}}

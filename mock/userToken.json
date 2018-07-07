@@ -1,0 +1,8 @@
+[{
+    "name" : "User",
+    "userName" : "userName",
+    "email" : "user@email.com",
+    "devRole" : true,
+    "offline" : false,
+    "token": ""
+}]

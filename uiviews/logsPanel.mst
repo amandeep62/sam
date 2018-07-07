@@ -1,0 +1,21 @@
+<div class="logs panel bounceInRight animated">
+  <div class="panel-header">
+      <select class="logs-filter">
+          <option value="Verbose">Verbose</option>
+          <option value="Debug">Debug</option>
+          <option value="Info">Info</option>
+          <option value="Warn">Warn</option>
+          <option value="Error">Error</option>
+          <option value="Assert">Assert</option>
+      </select>
+      <ul class="panel-buttons">
+          <li class="save-logs"><span class="icon-download"></span> Download</li>
+          <li class="clear-logs"><span class="icon-clean"></span> Clear</li>
+      </ul>
+      <div class="search-container">
+          <input type="search" id="myTags" placeholder="Filter by tag. E.g. MyActivity MyService:D" />
+          <button type="submit"><span class="icon-search"></span></button>
+      </div>
+  </div>
+  <div class="panel-view"></div>
+</div>
